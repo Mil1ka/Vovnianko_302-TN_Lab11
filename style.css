@@ -1,0 +1,45 @@
+body {
+    background-image: url("background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p::first-line {
+    color: red;
+}
+
+p {
+    text-align: justify;
+    margin: 0 20px;
+    font-style: italic;
+    font-size: 14pt;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    font-style: normal;
+}
+
+img {
+    float: right;
+    margin: 10px;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
